@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Furniro | Home</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" href="/assets/images/icons/logo-icon.svg">
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="/">
+	<img src="./assets/images/logo.svg" alt="Logo" class="header__logo">
+</a>
+<nav class="header__nav">
+	<ul class="header__nav-list">
+		<li class="header__nav-list-item">
+			<a href="/"> Home </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="shop.html"> Shop </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="blog.html"> About </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="contact.html"> Contact </a>
+		</li>
+	</ul>
+</nav>
+<div class="header__icons">
+	<ul class="header__icons-list">
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/account.svg" alt="account" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/search.svg" alt="search" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/favourite.svg" alt="favourite" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<button id="burger-btn" type="button">
+				<img src="./assets/images/icons/bin.svg" alt="bin" class="header__icon">
+			</button>
+		</li>
+	</ul>
+</div>
+<div class="burger-menu">
+	<div class="burger-menu__head">
+		<div class="burger-menu__head-1">Shopping Cart</div>
+		<button class="burger-menu__head-2" id="close-btn" type="button">
+			<img src="/assets/images/icons/close-bin.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__item">
+		<div class="burger-menu__item-img-wrapper">
+			<img src="/assets/images/comparision/1.png" alt="" class="burger-menu__item-img">
+		</div>
+		<div class="burger-menu__item-info">
+			<div class="burger-menu__item-info-top">Asgaard sofa</div>
+			<div class="burger-menu__item-info-bottom">
+				1 x <span class="price">Rs. 250,000.00</span>
+			</div>
+		</div>
+		<button>
+			<img src="/assets/images/icons/delete.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__final-price">
+		<div class="burger-menu__final-price-1">Subtotal</div>
+		<div class="burger-menu__final-price-2 price">Rs. 250,000.00</div>
+	</div>
+	<div class="burger-menu__last-btn-wrapper">
+		<button class="burger-menu__last-btn">Cart</button>
+		<button class="burger-menu__last-btn">Checkout</button>
+		<button class="burger-menu__last-btn">Comparison</button>
+	</div>
+</div>
+<script src="/assets/scripts/header.js"></script>
+
+  </header>
+  <main class="main">
+    <section class="banner">
+  <img src="/assets/images/logo-icon.svg" alt="" class="banner__logo">
+  <h1 class="banner__title">Cart</h1>
+  <div class="banner__path">
+    <ul class="banner__list">
+      <li class="banner__item path-first">Home</li>
+      <li class="banner__item">Cart</li>
+    </ul>
+  </div>
+</section>
+    <section class="cart">
+    <div class="cart__inner container">
+        <div class="cart__table">
+            <div class="cart__table-first-row"></div>
+            <div class="cart__table-first-row">Product</div>
+            <div class="cart__table-first-row">Price</div>
+            <div class="cart__table-first-row">Quantity</div>
+            <div class="cart__table-first-row">Subtotal</div>
+            <div class="cart__table-first-row"></div>
+            <div class="cart__table-img">
+                <img src="/assets/images/product-images/main.png" alt="">
+            </div>
+            <div class="cart__table-product">Asgaard sofa</div>
+            <div class="cart__table-price">Rs. 250,000.00</div>
+            <div class="cart__table-quantity"><p>1</p></div>
+            <div class="cart__table-subtotal">Rs. 250,000.00</div>
+            <div class="cart__table-delete">
+                <button>
+                    <img src="/assets/images/icons/trash.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="cart__window">
+            <h2 class="cart__window-title">Cart Totals</h2>
+            <div class="cart__window-subtotal">
+                <div>Subtotal</div>
+                <div>Rs. 250,000.00</div>
+            </div>
+            <div class="cart__window-total">
+                <div>Total</div>
+                <div>Rs. 250,000.00</div>
+            </div>
+            <a href="checkout.html" class="cart__window-btn">Chek out</a>
+        </div>
+    </div>
+</section>
+    <section class="about">
+  <div class="about__card">
+    <img src="/assets/images/icons/trophy.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">High Quality</h3>
+      <p class="about__card-subtitle">crafted from top materials</p>
+    </div>
+  </div>
+  <div class="about__card">
+    <img src="/assets/images/icons/guarantee.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">Warranty Protection</h3>
+      <p class="about__card-subtitle">Over 2 years</p>
+    </div>
+  </div>
+  <div class="about__card">
+    <img src="/assets/images/icons/shipping.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">Free Shipping</h3>
+      <p class="about__card-subtitle">Order over 150 $</p>
+    </div>
+  </div>
+  <div class="about__card">
+    <img src="/assets/images/icons/support.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">24 / 7 Support</h3>
+      <p class="about__card-subtitle">Dedicated support</p>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+  <div class="container footer__top-inner">
+    <div class="footer__first-column">
+      <h3 class="footer__furniro">Funiro.</h3>
+      <div class="footer__info">400 University Drive Suite 200 Coral Gables,<br>
+        FL 33134 USA</div>
+    </div>
+    <div class="footer__second-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Links
+        </li>
+        <li class="footer__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Shop</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">About</a>
+        </li>
+        <li class="footer__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__third-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Help
+        </li>
+        <li class="footer__item">
+          <a href="#!">Payment Options</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Returns</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Privacy Policies</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__fourth-column">
+      <p class="footer__form-name item-first">Newsletter</p>
+      <form action="#" id="newsletter">
+        <input type="email" required id="email-input" class="footer__email-input" placeholder="Enter Your Email Address">
+        <input type="submit" id="submit-btn" value="subscribe">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer__bottom container">
+  2023 furino. All rights reverved
+</div>
+  </footer>
+</body>
+
+</html>

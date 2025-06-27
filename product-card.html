@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Furniro | Product</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="/">
+	<img src="./assets/images/logo.svg" alt="Logo" class="header__logo">
+</a>
+<nav class="header__nav">
+	<ul class="header__nav-list">
+		<li class="header__nav-list-item">
+			<a href="/"> Home </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="shop.html"> Shop </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="blog.html"> About </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="contact.html"> Contact </a>
+		</li>
+	</ul>
+</nav>
+<div class="header__icons">
+	<ul class="header__icons-list">
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/account.svg" alt="account" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/search.svg" alt="search" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/favourite.svg" alt="favourite" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<button id="burger-btn" type="button">
+				<img src="./assets/images/icons/bin.svg" alt="bin" class="header__icon">
+			</button>
+		</li>
+	</ul>
+</div>
+<div class="burger-menu">
+	<div class="burger-menu__head">
+		<div class="burger-menu__head-1">Shopping Cart</div>
+		<button class="burger-menu__head-2" id="close-btn" type="button">
+			<img src="/assets/images/icons/close-bin.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__item">
+		<div class="burger-menu__item-img-wrapper">
+			<img src="/assets/images/comparision/1.png" alt="" class="burger-menu__item-img">
+		</div>
+		<div class="burger-menu__item-info">
+			<div class="burger-menu__item-info-top">Asgaard sofa</div>
+			<div class="burger-menu__item-info-bottom">
+				1 x <span class="price">Rs. 250,000.00</span>
+			</div>
+		</div>
+		<button>
+			<img src="/assets/images/icons/delete.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__final-price">
+		<div class="burger-menu__final-price-1">Subtotal</div>
+		<div class="burger-menu__final-price-2 price">Rs. 250,000.00</div>
+	</div>
+	<div class="burger-menu__last-btn-wrapper">
+		<button class="burger-menu__last-btn">Cart</button>
+		<button class="burger-menu__last-btn">Checkout</button>
+		<button class="burger-menu__last-btn">Comparison</button>
+	</div>
+</div>
+<script src="/assets/scripts/header.js"></script>
+
+  </header>
+  <main class="main">
+    <section class="path-row">
+  <div class="path-row__inner container">
+    <ul class="path-row__list">
+      <li class="path-row__item">Home</li>
+      <li class="path-row__item">Shop</li>
+    </ul>
+    <p class="path-row__final-path">Asgaard sofa</p>
+  </div>
+</section>
+    <section class="product-info">
+  <div class="product-info__inner container">
+    <div class="product-info__images">
+      <div class="product-info__images-left">
+        <div class="product-info__images-left-cell">
+          <img src="/assets/images/product-images/left-1.png" alt="" class="product-info__image">
+        </div>
+        <div class="product-info__images-left-cell">
+          <img src="/assets/images/product-images/left-2.png" alt="" class="product-info__image">
+        </div>
+        <div class="product-info__images-left-cell">
+          <img src="/assets/images/product-images/left-3.png" alt="" class="product-info__image">
+        </div>
+        <div class="product-info__images-left-cell">
+          <img src="/assets/images/product-images/left-4.png" alt="" class="product-info__image">
+        </div>
+      </div>
+      <div class="product-info__images-right">
+        <img src="/assets/images/product-images/main.png" alt="" class="product-info__image">
+      </div>
+    </div>
+    <div class="product-info__info">
+      <h1 class="product-info__title">Asgaard sofa</h1>
+      <div class="product-info__price">Rs. 250,000.00</div>
+      <div class="product-info__rating">
+        <ul class="product-info__stars">
+          <li class="product-info__star"><img src="/assets/images/icons/full-star.svg" alt=""></li>
+          <li class="product-info__star"><img src="/assets/images/icons/full-star.svg" alt=""></li>
+          <li class="product-info__star"><img src="/assets/images/icons/full-star.svg" alt=""></li>
+          <li class="product-info__star"><img src="/assets/images/icons/full-star.svg" alt=""></li>
+          <li class="product-info__star"><img src="/assets/images/icons/half-star.svg" alt=""></li>
+        </ul>
+        <p class="product-info__reviews">5 Customer Review</p>
+      </div>
+      <p class="product-info__disc">Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
+      <div class="product-info__chose-size">
+        <p class="product-info__chose-size-title">Size</p>
+        <ul class="product-info__chose-size-list">
+          <li><button id="size" class="product-info__chose-size-size active-size">L</button></li>
+          <li><button id="size" class="product-info__chose-size-size">XL</button></li>
+          <li><button id="size" class="product-info__chose-size-size">XS</button></li>
+        </ul>
+      </div>
+      <div class="product-info__chose-color">
+        <p class="product-info__chose-color-title">Color</p>
+        <ul class="product-info__chose-color-list">
+          <li><button id="color" class="product-info__chose-color-color" style="background-color: #816DFA;"></button></li>
+          <li><button id="color" class="product-info__chose-color-color" style="background-color: #000000;"></button></li>
+          <li><button id="color" class="product-info__chose-color-color" style="background-color: #B88E2F;"></button></li>
+        </ul>
+      </div>
+      <div class="product-info__buttons">
+        <div class="product-info__counter">
+          <button id="plus">-</button>
+          <input type="number" min="1" value="1" id="number-of-products">
+          <button id="minus">+</button>
+        </div>
+        <a href="cart.html">
+          <button class="product-info__add-to-cart">Add To Cart</button>
+        </a>
+        <button class="product-info__compare">+ Compare</button>
+      </div>
+      <div class="product-info__subinfo">
+        <div class="product-info__subinfo-cell">SKU</div>
+        <div class="product-info__subinfo-cell">:</div>
+        <div class="product-info__subinfo-cell">SS001</div>
+        <div class="product-info__subinfo-cell">Category</div>
+        <div class="product-info__subinfo-cell">:</div>
+        <div class="product-info__subinfo-cell">Sofas</div>
+        <div class="product-info__subinfo-cell">Tags</div>
+        <div class="product-info__subinfo-cell">:</div>
+        <div class="product-info__subinfo-cell">Sofa, Chair, Home, Shop</div>
+        <div class="product-info__subinfo-cell">Share</div>
+        <div class="product-info__subinfo-cell">:</div>
+        <div class="product-info__subinfo-cell">
+          <a href="#!">
+            <img src="/assets/images/icons/facebook.svg" alt="" class="product-info__subinfo-social">
+          </a>
+          <a href="#!">
+            <img src="/assets/images/icons/linked-in.svg" alt="" class="product-info__subinfo-social">
+          </a>
+          <a href="#!">
+            <img src="/assets/images/icons/twitter.svg" alt="" class="product-info__subinfo-social">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="description">
+  <div class="description__inner container">
+    <ul class="description__list">
+      <li class="description__item description-active"><button>Description</button></li>
+      <li class="description__item"><button>Additional Information</button></li>
+      <li class="description__item"><button>Reviews [5]</button></li>
+    </ul>
+    <div class="description__text">Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable
+    look and sound of Marshall, unplugs the chords, and takes the show on the road. <br><br><br>
+    Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of
+    the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts
+    a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to
+    fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</div>
+    <div class="description__images">
+      <div class="description__image">
+        <img src="/assets/images/more-products/1.png" alt="">
+      </div>
+      <div class="description__image">
+        <img src="/assets/images/more-products/2.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="related-products">
+<div class="related-products__inner container">
+    <h2 class="related-products__title">
+      Related Products
+    </h2>
+    <div class="products__cards">
+      <div class="products__card">
+    <img src="/assets/images/products/11.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Syltherine
+        </p>
+        <p class="products__card-disc">
+            Stylish cafe chair
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 2.500.000
+            </p>
+            <p class="products__card-oldprice">
+                Rp 3.500.000
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--red)">
+        -30%
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+      <div class="products__card">
+    <img src="/assets/images/products/12.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Leviosa
+        </p>
+        <p class="products__card-disc">
+            Stylish cafe chair
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 2.500.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32;
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(&#32;)">
+        &#32;
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+      <div class="products__card">
+    <img src="/assets/images/products/13.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Lolito
+        </p>
+        <p class="products__card-disc">
+            Luxury big sofa
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 7.000.000
+            </p>
+            <p class="products__card-oldprice">
+                Rp 14.000.000
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--red)">
+        -50%
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+      <div class="products__card">
+    <img src="/assets/images/products/14.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Respira
+        </p>
+        <p class="products__card-disc">
+            Outdoor bar table and stool
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 500.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32;
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--green)">
+        New
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+    </div>
+    <div class="products__btn-box">
+        <a href="shop.html" class="products__btn">
+      Show More
+      </a>
+    </div>
+</div>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+  <div class="container footer__top-inner">
+    <div class="footer__first-column">
+      <h3 class="footer__furniro">Funiro.</h3>
+      <div class="footer__info">400 University Drive Suite 200 Coral Gables,<br>
+        FL 33134 USA</div>
+    </div>
+    <div class="footer__second-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Links
+        </li>
+        <li class="footer__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Shop</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">About</a>
+        </li>
+        <li class="footer__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__third-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Help
+        </li>
+        <li class="footer__item">
+          <a href="#!">Payment Options</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Returns</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Privacy Policies</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__fourth-column">
+      <p class="footer__form-name item-first">Newsletter</p>
+      <form action="#" id="newsletter">
+        <input type="email" required id="email-input" class="footer__email-input" placeholder="Enter Your Email Address">
+        <input type="submit" id="submit-btn" value="subscribe">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer__bottom container">
+  2023 furino. All rights reverved
+</div>
+  </footer>
+</body>
+
+</html>

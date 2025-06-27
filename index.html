@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Furniro | Home</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="/assets/images/icons/logo-icon.svg">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">
+	<img src="./assets/images/logo.svg" alt="Logo" class="header__logo">
+</a>
+<nav class="header__nav">
+	<ul class="header__nav-list">
+		<li class="header__nav-list-item">
+			<a href="/"> Home </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="shop.html"> Shop </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="blog.html"> About </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="contact.html"> Contact </a>
+		</li>
+	</ul>
+</nav>
+<div class="header__icons">
+	<ul class="header__icons-list">
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/account.svg" alt="account" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/search.svg" alt="search" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/favourite.svg" alt="favourite" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<button id="burger-btn" type="button">
+				<img src="./assets/images/icons/bin.svg" alt="bin" class="header__icon">
+			</button>
+		</li>
+	</ul>
+</div>
+<div class="burger-menu">
+	<div class="burger-menu__head">
+		<div class="burger-menu__head-1">Shopping Cart</div>
+		<button class="burger-menu__head-2" id="close-btn" type="button">
+			<img src="/assets/images/icons/close-bin.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__item">
+		<div class="burger-menu__item-img-wrapper">
+			<img src="/assets/images/comparision/1.png" alt="" class="burger-menu__item-img">
+		</div>
+		<div class="burger-menu__item-info">
+			<div class="burger-menu__item-info-top">Asgaard sofa</div>
+			<div class="burger-menu__item-info-bottom">
+				1 x <span class="price">Rs. 250,000.00</span>
+			</div>
+		</div>
+		<button>
+			<img src="/assets/images/icons/delete.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__final-price">
+		<div class="burger-menu__final-price-1">Subtotal</div>
+		<div class="burger-menu__final-price-2 price">Rs. 250,000.00</div>
+	</div>
+	<div class="burger-menu__last-btn-wrapper">
+		<button class="burger-menu__last-btn">Cart</button>
+		<button class="burger-menu__last-btn">Checkout</button>
+		<button class="burger-menu__last-btn">Comparison</button>
+	</div>
+</div>
+<script src="/assets/scripts/header.js"></script>
+
+    </header>
+    <main class="main">
+        <section class="hero">
+    <div class="hero__content">
+        <div class="hero__up-title">
+            New Arrival
+        </div>
+        <div class="hero__title">
+            Discover Our<br>New Collection
+        </div>
+        <div class="hero__disc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+        </div>
+        <a href="#!" class="hero__btn">
+            buy now
+        </a>
+    </div>
+</section>
+        <section class="rooms">
+    <div class="container">
+        <h2 class="rooms__title">
+            Browse The Range
+        </h2>
+        <p class="rooms__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="rooms__cards">
+            <a href="#!">
+                <div class="rooms__card">
+                    <img src="/assets/images/rooms/1.webp" alt="dining" class="rooms__card-img">
+                    <p class="rooms__card-text">Dining</p>
+                </div>
+            </a>
+            <a href="#!">
+                <div class="rooms__card">
+                    <img src="/assets/images/rooms/2.webp" alt="living" class="rooms__card-img">
+                    <p class="rooms__card-text">Living</p>
+                </div>
+            </a>
+            <a href="#!">
+                <div class="rooms__card">
+                    <img src="/assets/images/rooms/3.webp" alt="bedroom" class="rooms__card-img">
+                    <p class="rooms__card-text">Bedroom</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+        <section class="products">
+    <div class="container">
+        <h2 class="products__title">
+            Our Products
+        </h2>
+        <div class="products__cards">
+            <div class="products__card">
+    <img src="/assets/images/products/11.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Syltherine
+        </p>
+        <p class="products__card-disc">
+            Stylish cafe chair
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 2.500.000
+            </p>
+            <p class="products__card-oldprice">
+                Rp 3.500.000
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--red)">
+        -30%
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="products__card">
+    <img src="/assets/images/products/12.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Leviosa
+        </p>
+        <p class="products__card-disc">
+            Stylish cafe chair
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 2.500.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32;
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(&#32;)">
+        &#32;
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+           <div class="products__card">
+    <img src="/assets/images/products/13.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Lolito
+        </p>
+        <p class="products__card-disc">
+            Luxury big sofa
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 7.000.000
+            </p>
+            <p class="products__card-oldprice">
+                Rp 14.000.000
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--red)">
+        -50%
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="products__card">
+    <img src="/assets/images/products/14.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Respira
+        </p>
+        <p class="products__card-disc">
+            Outdoor bar table and stool
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 500.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32;
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--green)">
+        New
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="products__card">
+    <img src="/assets/images/products/21.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Grifo
+        </p>
+        <p class="products__card-disc">
+            Night lamp
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 1.500.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32;
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(&#32;)">
+        &#32;
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="products__card">
+    <img src="/assets/images/products/22.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Muggo
+        </p>
+        <p class="products__card-disc">
+            Small mug
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 150.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32;
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--green)">
+        New
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="products__card">
+    <img src="/assets/images/products/23.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Pingky
+        </p>
+        <p class="products__card-disc">
+            Cute bed set
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 7.000.000
+            </p>
+            <p class="products__card-oldprice">
+                Rp 14.000.000
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--red)">
+        -50%
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="products__card">
+    <img src="/assets/images/products/24.webp" alt="" class="products__card-img">
+    <div class="products__card-content">
+        <p class="products__card-name">
+            Potty
+        </p>
+        <p class="products__card-disc">
+            Minimalist flower pot
+        </p>
+        <div class="products__card-prices">
+            <p class="products__card-newprice">
+                Rp 500.000
+            </p>
+            <p class="products__card-oldprice">
+                &#32
+            </p>
+        </div>
+    </div>
+    <div class="products__card-discount" style="background-color: var(--green)">
+        New
+    </div>
+    <div class="products__card-hover">
+        <div class="products__card-hover-btn-box">
+            <a href="product-card.html" class="products__card-hover-btn">Add to cart</a>
+        </div>
+        <ul class="products__card-hover-list">
+            <li class="products__card-hover-list-item share">
+                <a href="#!">
+                    Share
+                </a>
+            </li>
+            <li class="products__card-hover-list-item compare">
+                <a href="comparision.html">
+                    Compare
+                </a>
+            </li>
+            <li class="products__card-hover-list-item like">
+                <a href="#!">
+                    Like
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+        </div>
+        <div class="products__btn-box">
+            <a href="shop.html" class="products__btn">
+                Show More
+            </a>
+        </div>
+
+    </div>
+    
+</section>
+        <section class="slider">
+  <div class="slider__content">
+    <h2 class="slider__title">
+      50+ Beautiful rooms inspiration
+    </h2>
+    <p class="slider__subtitle">
+      Our designer already made a lot of beautiful prototipe of rooms that inspire you
+    </p>
+    <a href="#!" class="slider__btn">Explore More</a>
+  </div>
+  <div class="slider__images">
+    <div class="slider__images-main">
+      <div class="slider__images-main-content">
+        <div class="slider__images-main-text">
+          <p class="slider__images-main-uptitle">01 &#8212; Bed Room</p>
+          <p class="slider__images-main-title">Inner Peace</p>
+        </div>
+        <a href="#!">
+          <div class="slider__images-main-arrow-box">
+            <img src="/assets/images/icons/arrow-right.svg" alt="" class="slider__images-main-arrow">
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="slider__images-right">
+      <div class="slider__images-right-images">
+        <div class="slider__images-right-images-image image-1"></div>
+        <div class="slider__images-right-images-image image-2"></div>
+      </div>
+      <div class="slider__images-right-pagination">
+        <div class="slider__images-right-pagination-point pagination-active"></div>
+        <div class="slider__images-right-pagination-point"></div>
+        <div class="slider__images-right-pagination-point"></div>
+        <div class="slider__images-right-pagination-point"></div>
+      </div>
+    </div>
+  </div>
+  <button id="slider__arrow"></button>
+</section>
+        <section class="preview">
+  <p class="preview__uptitle">Share your setup with</p>
+  <h2 class="preview__title">#FuniroFurniture</h2>
+  <img src="/assets/images/preview-img.webp" alt="" width="100%" class="preview__img">
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+  <div class="container footer__top-inner">
+    <div class="footer__first-column">
+      <h3 class="footer__furniro">Funiro.</h3>
+      <div class="footer__info">400 University Drive Suite 200 Coral Gables,<br>
+        FL 33134 USA</div>
+    </div>
+    <div class="footer__second-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Links
+        </li>
+        <li class="footer__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Shop</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">About</a>
+        </li>
+        <li class="footer__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__third-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Help
+        </li>
+        <li class="footer__item">
+          <a href="#!">Payment Options</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Returns</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Privacy Policies</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__fourth-column">
+      <p class="footer__form-name item-first">Newsletter</p>
+      <form action="#" id="newsletter">
+        <input type="email" required id="email-input" class="footer__email-input" placeholder="Enter Your Email Address">
+        <input type="submit" id="submit-btn" value="subscribe">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer__bottom container">
+  2023 furino. All rights reverved
+</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Furniro | Home</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" href="/assets/images/icons/logo-icon.svg">
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="/">
+	<img src="./assets/images/logo.svg" alt="Logo" class="header__logo">
+</a>
+<nav class="header__nav">
+	<ul class="header__nav-list">
+		<li class="header__nav-list-item">
+			<a href="/"> Home </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="shop.html"> Shop </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="blog.html"> About </a>
+		</li>
+		<li class="header__nav-list-item">
+			<a href="contact.html"> Contact </a>
+		</li>
+	</ul>
+</nav>
+<div class="header__icons">
+	<ul class="header__icons-list">
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/account.svg" alt="account" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/search.svg" alt="search" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<a href="#!">
+				<img src="./assets/images/icons/favourite.svg" alt="favourite" class="header__icon">
+			</a>
+		</li>
+		<li>
+			<button id="burger-btn" type="button">
+				<img src="./assets/images/icons/bin.svg" alt="bin" class="header__icon">
+			</button>
+		</li>
+	</ul>
+</div>
+<div class="burger-menu">
+	<div class="burger-menu__head">
+		<div class="burger-menu__head-1">Shopping Cart</div>
+		<button class="burger-menu__head-2" id="close-btn" type="button">
+			<img src="/assets/images/icons/close-bin.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__item">
+		<div class="burger-menu__item-img-wrapper">
+			<img src="/assets/images/comparision/1.png" alt="" class="burger-menu__item-img">
+		</div>
+		<div class="burger-menu__item-info">
+			<div class="burger-menu__item-info-top">Asgaard sofa</div>
+			<div class="burger-menu__item-info-bottom">
+				1 x <span class="price">Rs. 250,000.00</span>
+			</div>
+		</div>
+		<button>
+			<img src="/assets/images/icons/delete.svg" alt="">
+		</button>
+	</div>
+	<div class="burger-menu__final-price">
+		<div class="burger-menu__final-price-1">Subtotal</div>
+		<div class="burger-menu__final-price-2 price">Rs. 250,000.00</div>
+	</div>
+	<div class="burger-menu__last-btn-wrapper">
+		<button class="burger-menu__last-btn">Cart</button>
+		<button class="burger-menu__last-btn">Checkout</button>
+		<button class="burger-menu__last-btn">Comparison</button>
+	</div>
+</div>
+<script src="/assets/scripts/header.js"></script>
+
+  </header>
+  <main class="main">
+    <section class="banner">
+  <img src="/assets/images/logo-icon.svg" alt="" class="banner__logo">
+  <h1 class="banner__title">Checkout</h1>
+  <div class="banner__path">
+    <ul class="banner__list">
+      <li class="banner__item path-first">Home</li>
+      <li class="banner__item">Checkout</li>
+    </ul>
+  </div>
+</section>
+    <section class="chekout">
+    <div class="checkout__inner container">
+        <form class="checkout__form">
+            <div class="checkout__inputs">
+                <h2 class="checkout__title">
+                    Billing details
+                </h2>
+                <div class="checkout__inputs-first-row">
+                    <label class="checkout__label">First Name<br><input type="text" required id="first-name" class="checkout__input"></label>
+                    <label class="checkout__label">Last Name<br><input type="text" required id="last-name" class="checkout__input"></label>
+                </div>
+                <label class="checkout__label">Company Name (Optional)<br><input type="text" id="company" class="checkout__input"></label>
+                <label class="checkout__label">Country / Region<br><select name="" id="country" class="checkout__input">
+                    <option value="#">Sri Lanka</option>
+                </select></label>
+                <label class="checkout__label">Street address<br><input type="text" required id="street" class="checkout__input"></label>
+                <label class="checkout__label">Town / City<br><input type="text" required id="town" class="checkout__input"></label>
+                <label class="checkout__label">Province<br><select name="" id="country" class="checkout__input">
+                    <option value="#">Western Province</option>
+                </select></label>
+                <label class="checkout__label">ZIP code<br><input type="text" required id="zip" class="checkout__input"></label>
+                <label class="checkout__label">Phone<br><input type="text" required id="phone" class="checkout__input"></label>
+                <label class="checkout__label">Email address<br><input type="text" required id="email" class="checkout__input"></label>
+                <input type="text" id="additional-information" class="checkout__input" placeholder="Additional information">
+            </div>
+            <div class="checkout__right">
+                <div class="checkout__right-top">
+                    <div class="checkout__right-top-1">
+                        <div>Product</div>
+                        <div>Subtotal</div>
+                    </div>
+                    <div class="checkout__right-top-2">
+                        <div>Asgaard sofa 	&emsp;<b>x 1</b></div>
+                        <div>Rs. 250,000.00</div>
+                    </div>
+                    <div class="checkout__right-top-3">
+                        <div>Subtotal</div>
+                        <div>Rs. 250,000.00</div>
+                    </div>
+                    <div class="checkout__right-top-4">
+                        <div>Total</div>
+                        <div>Rs. 250,000.00</div>
+                    </div>
+                </div>
+                <div class="checkout__right-bottom">
+                    <label>Direct Bank Transfer<input type="checkbox" required></label>
+                    <p class="checkout__right-bottom-first-text">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                    <label>Direct Bank Transfer<input type="checkbox" required></label>
+                    <label>Cash On Delivery<input type="checkbox" required></label>
+                    <p class="checkout__right-bottom-disc">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#!"><b>privacy policy.</b></a></p>
+                    <a href="#!" class="checkout__right-bottom-btn">Place order</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+    <section class="about">
+  <div class="about__card">
+    <img src="/assets/images/icons/trophy.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">High Quality</h3>
+      <p class="about__card-subtitle">crafted from top materials</p>
+    </div>
+  </div>
+  <div class="about__card">
+    <img src="/assets/images/icons/guarantee.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">Warranty Protection</h3>
+      <p class="about__card-subtitle">Over 2 years</p>
+    </div>
+  </div>
+  <div class="about__card">
+    <img src="/assets/images/icons/shipping.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">Free Shipping</h3>
+      <p class="about__card-subtitle">Order over 150 $</p>
+    </div>
+  </div>
+  <div class="about__card">
+    <img src="/assets/images/icons/support.svg" alt="" class="card__img">
+    <div class="about__card-info">
+      <h3 class="about__card-title">24 / 7 Support</h3>
+      <p class="about__card-subtitle">Dedicated support</p>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+  <div class="container footer__top-inner">
+    <div class="footer__first-column">
+      <h3 class="footer__furniro">Funiro.</h3>
+      <div class="footer__info">400 University Drive Suite 200 Coral Gables,<br>
+        FL 33134 USA</div>
+    </div>
+    <div class="footer__second-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Links
+        </li>
+        <li class="footer__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Shop</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">About</a>
+        </li>
+        <li class="footer__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__third-column">
+      <ul class="footer__list">
+        <li class="footer__item item-first">Help
+        </li>
+        <li class="footer__item">
+          <a href="#!">Payment Options</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Returns</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!">Privacy Policies</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__fourth-column">
+      <p class="footer__form-name item-first">Newsletter</p>
+      <form action="#" id="newsletter">
+        <input type="email" required id="email-input" class="footer__email-input" placeholder="Enter Your Email Address">
+        <input type="submit" id="submit-btn" value="subscribe">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer__bottom container">
+  2023 furino. All rights reverved
+</div>
+  </footer>
+</body>
+
+</html>
